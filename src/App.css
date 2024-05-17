@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #181818;
+  color: #fff;
+  font-family: 'Quattrocento', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  height: 90px;  
+  z-index: 500;
+  transition: all .2s ease-in-out;
+}
+
+header.sticky {
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-hr {
+  position: relative;
+  top: .62em;
+  width: 95%;
+  height: 1px;
+  border: none;
+  background-color: #fff;
+}
+
+#logo {
+  width: 120px;
+  position: relative;
+  top: .5em;
+  left: 4em;
+  transition: left .3s ease-out;
+}
+
+#nav-list {
+  display: flex;
+  position: relative;
+  right: 4.5em;
+  top: .6em;
+  gap: 50px;  
+  list-style: none;
+  transition: right .3s ease-out;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+  transition: color .2s;
+}
+
+
+nav h2 {
+  position: relative;
+  top: .4em;
+  right: 3em;
+}
+
+#home {
+  height: 550px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 66px;
+}
+
+#landing-text {
+  position: relative;
+  top: 1.5em;
+}
+
+#lan-h1 {
+  font-size: 90px;
+}
+
+#short-desc {
+  position: relative;
+  top: -2em;
+  font-size: 20px;
+}
+
+#lan-btns {
+  display: flex;
+  gap: 0px 20px;
+}
+
+.lan-btn {
+  font-size: 22px;
+  height: 3em;
+  width: 7em;
+  border: 2px solid #D4AF37;
+}
+
+.prm-lan {
+  background-color: #D4AF37;
+  color: #181818;
+}
+
+.sec-lan {
+  background-color: transparent;
+  color: #D4AF37;
+}
+
+
+#three-pcs-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 210px;
+  width: 100%;
+}
+
+.pcs-info {
+  height: 80%;
+  width: 15em;
+  text-align: center;
+}
+
+.pcs-info svg {
+
+}
+
+.pcs-info hr {
+  position: relative;
+  top: -5px;
+  width: 73%;
+  background-color: #D4AF37;
+  border: none;
+  height: 2px;
+}
+
+.pcs-info p {
+  position: relative;
+  margin: 0 auto;
+  width: 82%;
+}
