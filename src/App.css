@@ -14,7 +14,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: transparent;
+  background-color: #181818;
   height: 90px;  
   z-index: 500;
   transition: all .2s ease-in-out;
@@ -77,7 +77,21 @@ nav h2 {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  top: 66px;
+  top: 50px;
+  overflow: hidden;
+}
+
+#razor-bg {
+  position: absolute;
+  background-image: url('images/blade.png');
+  height: 500px;
+  width: 38%;
+  top: 8em;
+  left: 43em;
+  rotate: 0deg;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 #landing-text {
@@ -87,6 +101,10 @@ nav h2 {
 
 #lan-h1 {
   font-size: 90px;
+}
+
+#lan-h1 span {
+  color: #D4AF37;
 }
 
 #short-desc {
@@ -105,6 +123,7 @@ nav h2 {
   height: 3em;
   width: 7em;
   border: 2px solid #D4AF37;
+  transition: all .2s;
 }
 
 .prm-lan {
@@ -118,12 +137,16 @@ nav h2 {
 }
 
 
+
+/**/
 #three-pcs-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 210px;
   width: 100%;
+  position: relative;
+  top: 3em;
 }
 
 .pcs-info {
@@ -132,8 +155,14 @@ nav h2 {
   text-align: center;
 }
 
-.pcs-info svg {
+path {
+  transition: all .2s ease-out;
+}
 
+.pcs-info:hover {
+  path {
+    fill: #fff;
+  }
 }
 
 .pcs-info hr {
@@ -149,4 +178,129 @@ nav h2 {
   position: relative;
   margin: 0 auto;
   width: 82%;
+}
+
+
+#best-sellers {
+  position: relative;
+  top: 5em;
+  height: 550px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#best-sellers h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#best-razors {
+  position: relative;
+  top: 1em;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.razor-card {
+  height: 250px;
+  width: 180px;
+  border: 3px solid #fff;
+  margin: 0 auto;
+}
+
+.razor-img {
+  width: 100%;
+  height: 60%;
+}
+
+.razor-hr {
+  border: none;
+  height: 1px;
+  width: 92%;
+  background-color: #fff;
+}
+
+.razor-desc {
+  position: relative;
+  top: -.9em;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.razor-rating {
+  float: right;
+  position: relative;
+  top: -1.65em;
+  font-size: 18px;
+}
+
+.razor-label {
+  font-size: 25px;
+}
+
+.razor-price {
+  position: relative; 
+  bottom: 12px;
+  font-size: 24px; 
+}
+
+
+
+#zoro-div {
+  background-image: url('./images/Zoro.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  margin: 0 auto;
+  transition: all .4s ease-in-out;
+}
+
+#zoro-desc {
+  left: 1em;
+  top: 6em;
+}
+
+#zoro-desc, #ss-desc {
+  position: relative;
+  font-size: 23px;
+  color: #D4AF37;
+  text-align: center;
+  line-height: 3em;
+  transition: all .4s;
+}
+
+#zoro-label {
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  left: 2em;
+  transition: all .3s ease-out;
+  transition-delay: .2s;
+}
+
+
+#ss-div {
+  background-image: url('./images/ss.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: .5em;
+}
+
+#ss-desc {
+  right: 1em;
+  top: 5.7em;
+}
+
+#ss-label {
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  right: 2.5em;
+  transition: all .3s ease-out;
+  transition-delay: .2s;
 }
