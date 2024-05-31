@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { RouterProvider, Route } from 'react-router-dom';
 import { createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
-import { Landing } from './content/Landing';
+import { Landing } from './contents/Landing';
 
 
 
