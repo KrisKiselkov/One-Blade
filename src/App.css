@@ -87,7 +87,7 @@ nav h2 {
   height: 500px;
   width: 38%;
   top: 8em;
-  left: 43em;
+  left: 41.5em;
   rotate: 0deg;
   background-size: contain;
   background-repeat: no-repeat;
@@ -96,11 +96,11 @@ nav h2 {
 
 #landing-text {
   position: relative;
-  top: 1.5em;
+  top: 2.5em;
 }
 
 #lan-h1 {
-  font-size: 90px;
+  font-size: 80px;
 }
 
 #lan-h1 span {
@@ -110,7 +110,7 @@ nav h2 {
 #short-desc {
   position: relative;
   top: -2em;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 #lan-btns {
@@ -138,7 +138,7 @@ nav h2 {
 
 
 
-/**/
+/* THREE PCS INFO */
 #three-pcs-info {
   display: flex;
   justify-content: space-around;
@@ -153,6 +153,24 @@ nav h2 {
   height: 80%;
   width: 15em;
   text-align: center;
+}
+
+.pcs-info:nth-child(1)::after, .pcs-info:nth-child(2)::after {
+  content: '';
+  width: 2px;
+  height: 45px;
+  background-color: #D4AF37;
+  position: absolute;
+}
+
+.pcs-info:nth-child(1)::after {
+  left: 33.1%;
+  bottom: 4.9em;
+}
+
+.pcs-info:nth-child(2)::after {
+  left: 65.9%;
+  bottom: 4.9em;
 }
 
 path {
@@ -185,7 +203,7 @@ path {
   position: relative;
   top: 5em;
   height: 550px;
-  width: 80%;
+  width: 88%;
   margin: 0 auto;
 }
 
@@ -198,6 +216,7 @@ path {
   position: relative;
   top: 1em;
   display: flex;
+  justify-content: space-between;
   width: 100%;
   height: 450px;
   margin: 0 auto;
@@ -247,14 +266,15 @@ path {
 }
 
 
-
+/* BEST RAZORS */
 #zoro-div {
   background-image: url('./images/Zoro.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 40%;
-  margin: 0 auto;
   transition: all .4s ease-in-out;
+  position: relative;
+  left: 2em;
 }
 
 #zoro-desc {
@@ -281,14 +301,30 @@ path {
 }
 
 
+#best-sell-h2 {
+  position: relative;
+  top: 1em;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+#best-sell-h2 em {
+  color: #D4AF37;
+  text-decoration: underline;
+}
+
+
 #ss-div {
   background-image: url('./images/ss.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 40%;
-  margin: 0 auto;
   position: relative;
   top: .5em;
+  position: relative;
+  right: 2em;
 }
 
 #ss-desc {
@@ -300,7 +336,306 @@ path {
   opacity: 0;
   visibility: hidden;
   position: relative;
-  right: 2.5em;
+  right: 2em;
   transition: all .3s ease-out;
   transition-delay: .2s;
+}
+
+
+/* WHY US */
+#why-us-container {
+  position: relative;
+  top: 5em;
+  height: 1000px;
+  width: 100%;
+  color: #181818;
+}
+
+#care-hero {
+  position: relative;
+  height: 130px;
+  width: 75%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#care-hero:after {
+  content: "";
+  position: absolute;
+  margin: -233.5px;
+  margin-top: -141px;
+  width: 100px;
+  height: 184px;
+  transform: rotate(35deg);
+  box-shadow: 0 0 0 655px #D4AF37;
+}
+
+#care-h2 {
+  z-index: 55;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+#care-mustache {
+  position: relative;
+  left: 39.5%;
+  bottom: 3.5em;
+  z-index: 56;
+  width: 180px;
+}
+
+#why-us {
+  display: flex;
+  position: relative;
+  top: 7.5em;
+  height: 350px;
+  width: 60%;
+  margin: 0 auto;
+  border: 3px solid #D4AF37;
+  color: #D4AF37;
+}
+
+#img-why-us {
+  width: 50%;
+  background-image: url('./images/men-shaving.jpg');
+  background-size: 100%;
+}
+
+#txt-why-us {
+  width: 50%;
+  border-left: 2px solid #D4AF37;
+}
+
+#txt-why-h4 {
+  position: relative;
+  left: 1em;
+  bottom: 5px;
+}
+
+#txt-why-h1 {
+  position: relative;
+  left: 2.15em;
+  top: 5px;
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+#txt-why-h1 span {
+  position: relative;
+  left: 2.3em;
+}
+
+#txt-why-p {
+  position: relative;
+  top: 1em;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-btn {
+  position: relative;
+  left: 3em;
+  top: 2em;
+  font-size: 18px;
+  width: 6.5em;
+  height: 2.5em;
+  margin-right: 15px;
+}
+
+.prm-why-btn {
+  background-color: #D4AF37;
+  border: 2px solid #D4AF37;
+  color: #181818;
+}
+
+.sec-why-btn {
+  background-color: transparent;
+  border: 2px solid #D4AF37;
+  color: #D4AF37;
+}
+
+
+/* COMPARE CONTAINER */
+#compare-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 2em;
+  color: #fff;
+  width: 73%;
+  height: 350px;
+  margin: 0 auto;
+}
+
+#our-razors {
+  width: 50%;  
+}
+
+#our-razors::after {
+  content: '';
+  position: absolute;
+  left: 49.9%;
+  bottom: 3em;
+  width: 3px;
+  height: 200px;
+  background-color: #D4AF37;
+}
+
+#cheap-razors {
+  width: 50%;
+}
+
+.our-cheap-h2 {
+  text-align: center;
+  font-size: 30px;
+  
+  text-transform: uppercase;
+  word-spacing: 7px;
+}
+
+.our-cheap-h2 em {
+  color: #D4AF37;
+}
+
+.our-cheap-ul {
+  position: relative;
+  right: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+
+.our-cheap-li {
+  font-size: 18px;
+  line-height: 43px;
+  word-spacing: 5px;
+}
+
+.our-span {
+  color: green;
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+}
+
+.cheap-span {
+  color: red;
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+}
+
+.our-cheap-hr {
+  border: none;
+  height: 2.7px;
+  width: 83%;
+  margin: 0 auto;
+  background-color: #D4AF37;
+  position: relative;
+  top: 20px;
+}
+
+
+/* HISTORY CONTAINER */
+#history-container {
+  position: relative;
+  top: 5em;
+  width: 80%;
+  height: 1600px;
+  margin: 0 auto;
+}
+
+#history-h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#hry-chapters {
+  position: relative;
+  top: 2.5em;
+}
+
+#hry-chapters::after {
+  content: '';
+  width: 3px;
+  height: 1400px;
+  background-color: #D4AF37;
+  position: absolute;
+  top: 0em;
+  left: 49.8%;
+}
+
+.each-chap {
+  display: flex;
+  align-items: center;
+}
+
+.hry-img {
+  position: relative;
+  width: 35%;
+}
+
+.left-hry-img {
+  left: 1em;
+}
+
+.hry-yrs {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  background-color: #181818;
+  z-index: 3;
+  padding: 10px 0px;
+} 
+
+.chapters-txt {
+  width: 35%;
+  position: relative;
+  text-align: justify;
+}
+
+.right-chap-txt {
+  right: 1em;
+}
+
+.chapters-txt h2 {
+  font-size: 28px;
+  color: #D4AF37;
+}
+
+.chapters-txt p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+.hry-hr {
+  margin: 4em;
+}
+
+.hry-hr::after {
+  content: '§';
+  display: inline-block;
+  position: absolute;
+  font-size: 35px;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%) rotate(60deg);
+  transform-origin: 50% 50%;
+  padding: 1rem;
+  background-color: #181818;
+}
+
+
+
+.right-hry-img {
+  right: 1em;
+}
+
+.left-chap-txt {
+  left: 1em;
 }
