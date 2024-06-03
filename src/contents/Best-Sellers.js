@@ -73,6 +73,9 @@ export function BestSellers() {
 
                 <h2 id="best-sell-h2">Class is <em>Eternal</em></h2>
 
+                <img id="right-arrow" src={require('../images/11965168.png')}></img>
+                <img id="left-arrow" src={require('../images/11965168.png')}></img>
+
                 <div id="ss-div" onMouseOver={ssDesc}>
                     <div id="ss-desc">
                         <h2 id="ss-label">'' Albino ''</h2>

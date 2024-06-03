@@ -303,12 +303,33 @@ path {
 
 #best-sell-h2 {
   position: relative;
-  top: 1em;
+  top: 2em;
   font-size: 35px;
   text-align: center;
   letter-spacing: 3px;
   font-style: italic;
 }
+
+#right-arrow {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 53%;
+  top: 13em;
+  rotate: -140deg;
+}
+
+#left-arrow {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 38%;
+  top: 13em;
+  rotate: 140deg;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 
 #best-sell-h2 em {
   color: #D4AF37;
