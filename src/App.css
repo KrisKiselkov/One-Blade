@@ -87,7 +87,7 @@ nav h2 {
   height: 500px;
   width: 38%;
   top: 8em;
-  left: 41.5em;
+  left: 43.5em;
   rotate: 0deg;
   background-size: contain;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ nav h2 {
 
 #landing-text {
   position: relative;
-  top: 2.5em;
+  top: 3em;
 }
 
 #lan-h1 {
@@ -114,6 +114,8 @@ nav h2 {
 }
 
 #lan-btns {
+  position: relative;
+  top: 1em;
   display: flex;
   gap: 0px 20px;
 }
@@ -366,7 +368,7 @@ path {
 /* WHY US */
 #why-us-container {
   position: relative;
-  top: 5em;
+  top: 9.3em;
   height: 1000px;
   width: 100%;
   color: #181818;
@@ -375,7 +377,7 @@ path {
 #care-hero {
   position: relative;
   height: 130px;
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -388,7 +390,7 @@ path {
   width: 100px;
   height: 184px;
   transform: rotate(35deg);
-  box-shadow: 0 0 0 655px #D4AF37;
+  box-shadow: 0 0 0 677px #D4AF37;
 }
 
 #care-h2 {
@@ -400,7 +402,7 @@ path {
   letter-spacing: 3px;
 }
 
-#care-mustache {
+.mustache {
   position: relative;
   left: 39.5%;
   bottom: 3.5em;
@@ -564,7 +566,7 @@ path {
 /* HISTORY CONTAINER */
 #history-container {
   position: relative;
-  top: 5em;
+  top: 9em;
   width: 80%;
   height: 1600px;
   margin: 0 auto;
@@ -659,4 +661,49 @@ path {
 
 .left-chap-txt {
   left: 1em;
+}
+
+
+/* MAKE THE CHANGE */
+#make-change {
+  height: 600px;
+  position: relative;
+  top: 9.5em;
+}
+
+#make-change-hero {
+  position: relative;
+  height: 130px;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  color: #181818;
+}
+
+#make-change-hero:after {
+  content: "";
+  position: absolute;
+  margin: -240px;
+  margin-top: -131px;
+  width: 100px;
+  height: 213px;
+  transform: rotate(-35deg);
+  box-shadow: 0 0 0 677px #D4AF37;
+}
+
+#make-change-h2 {
+  z-index: 55;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+#youtube {
+  display: block;
+  position: relative;
+  top: 5em;
+  margin: 0 auto;
+  text-align: center;
 }

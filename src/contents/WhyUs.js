@@ -6,7 +6,7 @@ export function WhyUs() {
         <section id="why-us-container">
             <div id="care-hero">
                 <h2 id="care-h2">Care For Your Beard.</h2>
-                <img src={mustache} id="care-mustache"></img>
+                <img src={mustache} className="mustache"></img>
             </div>
 
             <div id="compare-container">
