@@ -5,6 +5,7 @@ import { WhyUs } from "./WhyUs";
 import { History } from "./History";
 import { MakeChange } from "./Make-Change";
 import { Newsletter } from "./Newsletter";
+import { Footer } from "./Footer";
 
 
 export function Landing() {
@@ -23,6 +24,8 @@ export function Landing() {
             <MakeChange />
 
             <Newsletter />
+
+            <Footer />
         </>
     );
 }

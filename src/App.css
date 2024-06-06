@@ -386,7 +386,7 @@ path {
   content: "";
   position: absolute;
   margin: -233.5px;
-  margin-top: -141px;
+  margin-top: -142px;
   width: 100px;
   height: 184px;
   transform: rotate(35deg);
@@ -461,12 +461,13 @@ path {
 
 .why-btn {
   position: relative;
-  left: 3em;
+  left: 4em;
   top: 2em;
   font-size: 18px;
   width: 6.5em;
   height: 2.5em;
   margin-right: 15px;
+  transition: all .2s ease-in-out;
 }
 
 .prm-why-btn {
@@ -612,8 +613,86 @@ path {
   font-size: 40px;
   background-color: #181818;
   z-index: 3;
-  padding: 10px 0px;
+  padding: 10px;
 } 
+
+.yrs-hr {
+  position: absolute;
+  height: 3px;
+  width: 175px;
+  background-color: #D4AF37;
+  border: none;
+  left: 41.7%;
+}
+
+.triangle {
+  width: 0; 
+  height: 0; 
+  position: absolute;
+  z-index: 3;
+}
+
+.tr-one {
+  left: 28.5%;
+  top: 10.1em;
+  border-left: 100px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 100px solid #D4AF37;
+}
+
+.tr-two {
+  top: -1em;
+  border-top: 100px solid #D4AF37;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+}
+
+.tr-three {
+  left: 61.8%;
+  top: 33.6em;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #D4AF37;
+}
+
+.tr-forth {
+  top: 23.2em;
+  left: 90.5%;
+  border-top: 100px solid #D4AF37;
+  border-left: 100px solid transparent;
+  border-right: 0px solid transparent;
+}
+
+.tr-five {
+  top: 46.5em;
+  border-top: 100px solid #D4AF37;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+}
+
+.tr-six {
+  left: 28.5%;
+  top: 57.5em;
+  border-left: 100px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 100px solid #D4AF37;
+}
+
+.tr-seven {
+  left: 61.8%;
+  top: 81.2em;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #D4AF37;
+}
+
+.tr-eight {
+  top: 70.5em;
+  left: 90.5%;
+  border-top: 100px solid #D4AF37;
+  border-left: 100px solid transparent;
+  border-right: 0px solid transparent;
+}
 
 .chapters-txt {
   width: 35%;
@@ -706,4 +785,84 @@ path {
   top: 5em;
   margin: 0 auto;
   text-align: center;
+}
+
+
+/* NEWSLETTER */
+#newsletter {
+  position: relative;
+  top: 8.7em;
+  height: 300px;
+  width: 100%;
+  background-color: #D4AF37;
+  color: #181818;
+}
+
+#news-h1 {
+  position: relative;
+  top: 1.2em;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+
+#sub-container {
+  position: relative;
+  top: 4em;
+  height: 3.5em;
+  text-align: center;
+  display: flex;
+  gap: 0px 10px;
+  justify-content: center;
+}
+
+#news-inp {
+  width: 22em;
+  font-size: 18px;
+  padding-left: .7em;
+  background-color: #181818;
+  border: 3px solid #181818;
+  font-weight: bold;
+  font-family: 'Quattrocento', sans-serif;
+  color: #D4AF37;
+}
+
+input::placeholder {
+  color: #D4AF37;
+}
+
+input:focus {
+  outline: none;
+  background-color: #D4AF37;  
+}
+
+
+#inp-btn {
+  width: 7.5em;
+  color: #181818;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Quattrocento', sans-serif; 
+  border: 3px solid #181818;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: all .2s ease-out;
+}
+
+#inp-btn:hover {
+  background-color: #181818;
+  color: #D4AF37;
+}
+
+button {
+  font-family: 'Quattrocento', sans-serif;
+  font-weight: bold;
+}
+
+
+/* FOOTER */
+footer {
+  height: 350px;
 }

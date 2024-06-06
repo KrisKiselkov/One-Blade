@@ -2,6 +2,29 @@ import mustache from "../images/mustache.png"
 
 
 export function WhyUs() {
+    const btnHover = () => {
+        const prm = document.querySelector('.prm-why-btn');
+        const sec = document.querySelector('.sec-why-btn');
+    
+        const mouseOver = () => {
+            sec.style.backgroundColor = '#D4AF37';
+            sec.style.color = '#181818';
+            prm.style.backgroundColor = 'transparent';
+            prm.style.color = '#D4AF37';
+        }
+
+        const mouseOut = () => {
+            sec.style.backgroundColor = 'transparent';
+            sec.style.color = '#D4AF37';
+            prm.style.backgroundColor = '#D4AF37';
+            prm.style.color = '#181818';
+        }
+        
+        sec.addEventListener('mouseover', mouseOver)
+        sec.addEventListener('mouseout', mouseOut)
+    }
+
+
     return (
         <section id="why-us-container">
             <div id="care-hero">
@@ -53,7 +76,7 @@ export function WhyUs() {
 
                     <div id="why-btns">
                         <button className="why-btn prm-why-btn">Order Now</button>
-                        <button className="why-btn sec-why-btn">Learn More</button>
+                        <button className="why-btn sec-why-btn" onMouseOver={btnHover}>Learn More</button>
                     </div>
                 </div>
             </div>
