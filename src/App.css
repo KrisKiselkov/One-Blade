@@ -854,6 +854,7 @@ input:focus {
 #inp-btn:hover {
   background-color: #181818;
   color: #D4AF37;
+  cursor: pointer;
 }
 
 button {
