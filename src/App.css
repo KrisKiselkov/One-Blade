@@ -225,48 +225,6 @@ path {
   margin: 0 auto;
 }
 
-.razor-card {
-  height: 250px;
-  width: 180px;
-  border: 3px solid #fff;
-  margin: 0 auto;
-}
-
-.razor-img {
-  width: 100%;
-  height: 60%;
-}
-
-.razor-hr {
-  border: none;
-  height: 1px;
-  width: 92%;
-  background-color: #fff;
-}
-
-.razor-desc {
-  position: relative;
-  top: -.9em;
-  width: 92%;
-  margin: 0 auto;
-}
-
-.razor-rating {
-  float: right;
-  position: relative;
-  top: -1.65em;
-  font-size: 18px;
-}
-
-.razor-label {
-  font-size: 25px;
-}
-
-.razor-price {
-  position: relative; 
-  bottom: 12px;
-  font-size: 24px; 
-}
 
 
 /* BEST RAZORS */
@@ -888,4 +846,152 @@ footer {
 
 #products-h1 span {
   color: #D4AF37;
+}
+
+#products-sell {
+  position: relative;
+  top: 8em;
+  display: flex;
+}
+
+#filter-btns {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 3.8em;
+  width: 82%;
+  height: 0px;  
+  margin: 0 auto;
+  gap: 0px 80px;
+}
+
+.dropdown {
+  background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iNyIgdmlld0JveD0iMCAwIDExIDciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik01LjI2MzA2IDYuNzU4NjlMMC44MTI2NTkgMi4zMDgyN0MwLjU5ODAyIDIuMDkzNjMgMC41OTgwMiAxLjc0NTY0IDAuODEyNjU5IDEuNTMxMDNMMS4zMzE3MyAxLjAxMTk2QzEuNTQ2IDAuNzk3Njg2IDEuODkzMjcgMC43OTcyNzQgMi4xMDgwNSAxLjAxMTA0TDUuNjUxNjkgNC41MzgwOEw5LjE5NTMxIDEuMDExMDRDOS40MTAwOSAwLjc5NzI3NCA5Ljc1NzM2IDAuNzk3Njg2IDkuOTcxNjMgMS4wMTE5NkwxMC40OTA3IDEuNTMxMDNDMTAuNzA1MyAxLjc0NTY3IDEwLjcwNTMgMi4wOTM2NSAxMC40OTA3IDIuMzA4MjdMNi4wNDAzMiA2Ljc1ODY5QzUuODI1NjggNi45NzMzMSA1LjQ3NzcgNi45NzMzMSA1LjI2MzA2IDYuNzU4NjlaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K) no-repeat 95% 50%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 30px;
+  width: 8.5em;
+  padding: 0 8px;
+  letter-spacing: 1px;
+  font-family: 'Quattrocento', sans-serif;
+  border: 3px solid #D4AF37;
+  background-color: transparent;
+  color: #D4AF37;
+  font-weight: 700;
+  font-size: 17px;
+  outline: none;
+  transition: border .2s ease-out;
+}
+
+.razor-card {
+  height: 250px;
+  width: 180px;
+  border: 3px solid #D4AF37;
+  margin: 0 auto;
+}
+
+.razor-img {
+  width: 100%;
+  height: 60%;
+}
+
+.razor-hr {
+  border: none;
+  height: 1px;
+  width: 92%;
+  background-color: #D4AF37;
+}
+
+.razor-desc {
+  position: relative;
+  top: -.9em;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.razor-rating {
+  float: right;
+  position: relative;
+  top: -1.65em;
+  font-size: 18px;
+}
+
+.razor-label {
+  font-size: 25px;
+}
+
+.razor-price {
+  position: relative; 
+  bottom: 12px;
+  font-size: 24px; 
+}
+
+
+#products-qa {
+  position: relative;
+  top: 12em;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#qa-h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#qa-h3 {
+  position: relative;
+  bottom: 13px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#qa-section {
+  position: relative;
+  top: .7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 55%;
+  gap: 10px 0px;
+}
+
+.qa-div {
+  width: 100%;
+  background-color: #D4AF37;
+  color: #181818;
+  border: 3px solid #D4AF37
+}
+
+.qa-div-h3 {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.questions {
+  display: flex;
+}
+
+.answers {
+  max-height: 0em;
+  overflow: hidden; 
+  font-weight: bold;
+  font-size: 18px;
+  text-align: justify;
+  transition: all .2s ease-out;
+}
+
+.active-question {
+  background-color: #181818;
+  color: #D4AF37;
+  transition: all .2s ease-out;
+}
+
+.active-answer {
+  padding: .8em;
+  max-height: 7em;
 }

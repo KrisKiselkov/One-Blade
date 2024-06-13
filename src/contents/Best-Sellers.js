@@ -1,24 +1,6 @@
-import { razors } from "./Razors";
 
 
 export function BestSellers() {
-    function razorFunction() {
-        return (
-            razors.map(razor => (
-                <div className="razor-card">
-                    <img src={razor.image} className="razor-img"></img>
-                    <hr className="razor-hr"></hr>
-                    <div className="razor-desc">
-                        <h3 className="razor-label">{razor.label}</h3>
-                        <h4 className="razor-rating">{razor.rating} S</h4>
-                        <h3 className="razor-price">{razor.price} лв.</h3>
-                    </div>
-                </div>
-            ))
-        );
-    }
-
-
     const zoroDesc = () => {
         const zoro = document.getElementById('zoro-div');
         const zoroLabel = document.getElementById('zoro-label');

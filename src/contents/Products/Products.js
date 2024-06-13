@@ -1,5 +1,7 @@
 import { Nav } from '../../contents/Nav';
 import { ProductsHero } from './Products-Hero';
+import { ProductsQA } from './Products-QA';
+import { ProductsSell } from './Products-Sell';
 
 
 export function Products() {
@@ -8,6 +10,10 @@ export function Products() {
             <Nav />
 
             <ProductsHero />
+
+            <ProductsSell />
+
+            <ProductsQA />
         </>
     );
 
