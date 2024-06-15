@@ -560,10 +560,15 @@ path {
 .hry-img {
   position: relative;
   width: 35%;
+  transition: scale .2s ease-out;
+}
+
+.hry-img:hover {
+  scale: 1.1;
 }
 
 .left-hry-img {
-  left: 1em;
+  left: 1.1em;
 }
 
 .hry-yrs {
@@ -592,62 +597,62 @@ path {
 }
 
 .tr-one {
-  left: 28.5%;
-  top: 10.1em;
+  left: 29%;
+  top: 9.93em;
   border-left: 100px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 100px solid #D4AF37;
 }
 
 .tr-two {
-  top: -1em;
+  top: -.6em;
   border-top: 100px solid #D4AF37;
   border-left: 0px solid transparent;
   border-right: 100px solid transparent;
 }
 
 .tr-three {
-  left: 61.8%;
-  top: 33.6em;
+  left: 61.7%;
+  top: 33.4em;
   border-left: 0px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 100px solid #D4AF37;
 }
 
 .tr-forth {
-  top: 23.2em;
-  left: 90.5%;
+  top: 23.4em;
+  left: 90.7%;
   border-top: 100px solid #D4AF37;
   border-left: 100px solid transparent;
   border-right: 0px solid transparent;
 }
 
 .tr-five {
-  top: 46.5em;
+  top: 46.8em;
   border-top: 100px solid #D4AF37;
   border-left: 0px solid transparent;
   border-right: 100px solid transparent;
 }
 
 .tr-six {
-  left: 28.5%;
-  top: 57.5em;
+  left: 29%;
+  top: 57.36em;
   border-left: 100px solid transparent;
   border-right: 0px solid transparent;
   border-bottom: 100px solid #D4AF37;
 }
 
 .tr-seven {
-  left: 61.8%;
-  top: 81.2em;
+  left: 61.7%;
+  top: 80.85em;
   border-left: 0px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 100px solid #D4AF37;
 }
 
 .tr-eight {
-  top: 70.5em;
-  left: 90.5%;
+  top: 70.85em;
+  left: 90.7%;
   border-top: 100px solid #D4AF37;
   border-left: 100px solid transparent;
   border-right: 0px solid transparent;
@@ -744,6 +749,11 @@ path {
   top: 5em;
   margin: 0 auto;
   text-align: center;
+}
+
+/* TESTIMONIALS */
+#temo-container {
+  height: 550px;
 }
 
 
@@ -927,13 +937,52 @@ footer {
   font-size: 24px; 
 }
 
+#see-all-h3 {
+  position: absolute;
+  left: 47.8%;
+  top: 15em;
+  color: #D4AF37;
+}
+
+
+
+#trust-hero {
+  position: relative;
+  height: 130px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  color: #181818;
+}
+
+#trust-hero:after {
+  content: "";
+  position: absolute;
+  margin: -233.5px;
+  margin-top: -142px;
+  width: 100px;
+  height: 184px;
+  transform: rotate(35deg);
+  box-shadow: 0 0 0 613px #D4AF37;
+}
+
+#trust-h2 {
+  z-index: 55;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
 
 #products-qa {
   position: relative;
-  top: 12em;
-  height: 600px;
+  top: 16em;
+  height: auto;
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 11em;
 }
 
 #qa-h1 {
@@ -974,6 +1023,7 @@ footer {
 
 .questions {
   display: flex;
+  cursor: pointer;
 }
 
 .answers {

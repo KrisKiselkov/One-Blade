@@ -18,6 +18,11 @@ export function ProductsQA() {
 
     return(
         <section id="products-qa">
+            <div id="trust-hero">
+                <h2 id="trust-h2">Trust The Experienced.</h2>
+                <img src={require('../../images/mustache.png')} className="mustache"></img>
+            </div>
+            
             <h1 id="qa-h1">Q & A</h1>
             <h3 id="qa-h3">Frequently asked qustions by our clients.</h3>
 
