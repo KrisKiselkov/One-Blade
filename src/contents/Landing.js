@@ -6,6 +6,7 @@ import { History } from "./History";
 import { MakeChange } from "./Make-Change";
 import { Newsletter } from "./Newsletter";
 import { Footer } from "./Footer";
+import { Testimonials } from "./Tesitmonials";
 
 
 export function Landing() {
@@ -22,6 +23,8 @@ export function Landing() {
             <History />
 
             <MakeChange />
+
+            <Testimonials />
 
             <Newsletter />
 

@@ -8,7 +8,7 @@ export const razors = [
     },
     {
         image: require('../images/ss.png'),  
-        label: 'Ivory',
+        label: 'Albino',
         price: 36.99,
         rating: 4.9,
     },

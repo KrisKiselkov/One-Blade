@@ -10,8 +10,7 @@ export function ProductsSell() {
                     <hr className="razor-hr"></hr>
                     <div className="razor-desc">
                         <h3 className="razor-label">{razor.label}</h3>
-                        <h4 className="razor-rating">{razor.rating} S</h4>
-                        <h3 className="razor-price">{razor.price} лв.</h3>
+                        <span className="razor-price">{razor.price} лв.</span><span className="razor-rating">{razor.rating} S</span>
                     </div>
                 </div>
             ))

@@ -238,25 +238,15 @@ path {
   left: 2em;
 }
 
-#zoro-desc {
-  left: 1em;
-  top: 6em;
-}
-
-#zoro-desc, #ss-desc {
-  position: relative;
-  font-size: 23px;
-  color: #D4AF37;
-  text-align: center;
-  line-height: 3em;
-  transition: all .4s;
-}
-
-#zoro-label {
+#zoro-label, #ss-label {
   opacity: 0;
   visibility: hidden;
   position: relative;
-  left: 2em;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: #D4AF37;
+  text-align: center;
+  top: 4em;
   transition: all .3s ease-out;
   transition-delay: .2s;
 }
@@ -304,23 +294,9 @@ path {
   background-repeat: no-repeat;
   width: 40%;
   position: relative;
-  top: .5em;
+  top: .4em;
   position: relative;
   right: 2em;
-}
-
-#ss-desc {
-  right: 1em;
-  top: 5.7em;
-}
-
-#ss-label {
-  opacity: 0;
-  visibility: hidden;
-  position: relative;
-  right: 2em;
-  transition: all .3s ease-out;
-  transition-delay: .2s;
 }
 
 
@@ -753,7 +729,76 @@ path {
 
 /* TESTIMONIALS */
 #temo-container {
-  height: 550px;
+  height: 440px;
+  width: 78%;
+  margin: 0 auto;
+  position: relative;
+  top: 8em;
+  text-align: center;
+}
+
+#temo-h3 {
+  font-size: 25px;
+  line-height: 5px;
+}
+
+#temo-h1 {
+  font-size: 40px;
+}
+
+#temo-section {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 1em;
+}
+
+.temo-block {
+  height: 265px;
+  width: 375px;
+  background-color: #D4AF37;
+  padding: .6em 2.5em;
+  color: #181818;
+}
+
+.temo-p {
+  text-align: justify;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.temo-prof {
+  display: flex;
+}
+
+.prof-name-city {
+  line-height: 3px;
+  position: relative;
+  top: 9px;
+  left: 15px;
+  text-align: justify;
+}
+
+.prof-h4 {
+  font-weight: 500;
+}
+
+.temo-prof-img {
+  background-image: url('images/men-shaving.jpg');
+  background-size: contain;
+  position: relative;
+  top: 5px;
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+}
+
+.quotes {
+  width: 55px;
+  position: relative;
+  float: right;
+  bottom: 4em;
 }
 
 
@@ -895,8 +940,8 @@ footer {
 }
 
 .razor-card {
-  height: 250px;
-  width: 180px;
+  height: 300px;
+  width: 205px;
   border: 3px solid #D4AF37;
   margin: 0 auto;
 }
@@ -915,26 +960,24 @@ footer {
 
 .razor-desc {
   position: relative;
-  top: -.9em;
-  width: 92%;
+  top: -15px;
+  width: 90%;
   margin: 0 auto;
 }
 
 .razor-rating {
   float: right;
-  position: relative;
-  top: -1.65em;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .razor-label {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .razor-price {
   position: relative; 
-  bottom: 12px;
-  font-size: 24px; 
+  bottom: 5px;
+  font-size: 26px; 
 }
 
 #see-all-h3 {
